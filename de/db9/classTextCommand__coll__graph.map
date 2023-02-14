@@ -1,0 +1,4 @@
+<map id="TextCommand" name="TextCommand">
+<area shape="rect" id="node1" title="Class TextCommand &#45; concrete command." alt="" coords="5,79,112,104"/>
+<area shape="rect" id="node2" href="$d9/d71/classCommand.html" title="Parent class Command in the implementation of the Command pattern." alt="" coords="18,5,99,31"/>
+</map>
