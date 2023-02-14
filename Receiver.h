@@ -10,13 +10,15 @@ class Receiver {
 public:
     Receiver() = default;
 
-    void cmd1() {
-        //do something
+    void cmd(const std::string& text) {
+        if (text == "cmd1") {
+            //do something
+        } else if (text == "cmd2") {
+            //do something else
+        }
+        //etc
     }
-    void cmd2() {
-        //do something else
-    }
-    //etc
+
 };
 
 

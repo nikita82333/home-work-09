@@ -35,12 +35,7 @@ public:
         Command(std::move(receiver)), _text(std::move(text)) {}
 
     void execute() override {
-        if (_text == "cmd1") {
-            _receiver->cmd1();
-        } else if (_text == "cmd2") {
-            _receiver->cmd2();
-        }
-        //etc
+        _receiver->cmd(_text);
     }
 
     std::string get_text() override {
